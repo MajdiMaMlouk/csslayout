@@ -1,0 +1,76 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+
+
+.introduction {
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.introduction h1{
+    text-align: center;
+    color: aquamarine;
+}
+.parag{
+
+    display: flex;
+    
+}
+.parag p{
+    padding: 3%;
+font-family: 'Roboto', sans-serif;
+}
+.countries{
+margin: 2% 16%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.country {
+    margin-bottom: 3% ;
+    border-radius: 8px;
+
+}
+
+.country div {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.country button{
+    
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        outline: 0;
+        border: 0;
+        border-radius: 4px;
+        padding: 1.1666666667em 1.5em;
+        background: #3d83df;
+        font-family: Roboto,Arial,sans-serif;
+        line-height: 1em;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: .04em;
+        font-size: .75rem;
+        text-align: center;
+        text-decoration: none!important;
+        text-transform: uppercase;
+        transition: all .2s ease 0s;
+      }
+.country:hover  {
+    
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+div button:hover{
+
+    background-color: aquamarine;
+}
